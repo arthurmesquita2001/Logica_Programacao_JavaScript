@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilização do script entre as tags body</title>
+</head>
+
+<body>
+    <h1>
+        JavaScript
+    </h1>
+
+    <p id="texto">
+        Vamos alterar o fundo
+    </p>
+
+    <button type="button" onclick="newColor()">Fazer alteração</button>
+
+    <script>
+        function newColor() {
+            document.getElementById("texto").style.backgroundColor = '#AA0000';
+        }
+    </script>
+
+
+
+</body>
+
+</html>

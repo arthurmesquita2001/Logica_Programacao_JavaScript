@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando o JS no head</title>
+
+    <script>
+        function changeFunc() {
+            document.getElementById("trocar").innerHTML = "Novo";
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <p id="trocar">
+        abcde
+    </p>
+
+    <button type="button" onclick="changeFunc()"> Exibir novo texto</button>
+
+</body>
+
+</html>
